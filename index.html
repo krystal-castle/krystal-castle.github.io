@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Syriac Homework</title>
+    <link rel="stylesheet" href="formatting.css">
+</head>
+<body>
+    <header>
+        <h1>Homework Assignment 1</h1>
+    </header>
+
+    
+    <form action="/submit" method="post">
+
+        <!-- Name -->
+        <div class="form-group">
+            <label for="q1">Name: </label>
+            <input type="text" id="'name" name="name" required>
+        </div>
+
+        <!-- Multiple Choice (Radio) -->
+        <div class="form-group">
+            <label>Here's a multiple choice question.</label>
+            <div>
+                <label><input type="radio" name="q1" value="habibo dil">syriac here</label>
+            </div>
+            <div>
+                <label><input type="radio" name="q1" value="I love you" lang="syr" dir="rtl">ܫܠܡܐ ܥܠܝܟܘܢ</label>
+            </div>
+            <div>
+                <label><input type="radio" name="q1" value="test" class="syriac" lang="syr" dir="rtl">ܐ̱ܘ ܙ̱ܘ ܐ̱ܝ ܙ̱ܝ ܛ̱ܘ ܛ̱ܝ</label>
+            </div>
+        </div>
+
+        <!-- Multiple Choice (Checkbox) -->
+        <div class="form-group">
+            <label>Here's a question with multiple right answers:</label>
+            <div>
+                <label><input type="checkbox" name="q2" value="a1"> syriac here</label>
+            </div>
+            <div>
+                <label><input type="checkbox" name="q2" value="a2"> syriac here</label>
+            </div>
+            <div>
+                <label><input type="checkbox" name="q2" value="a3"> syriac here</label>
+            </div>
+        </div>
+
+        <!-- Fill in the blank -->
+        <div class="form-group inline">
+            <label for="q2-1">Here's a way to insert a word </label>
+            <select id="q2-1" name="q2-1" required>
+                <option value="a1">syriac here</option>
+                <option value="a2">syriac here</option>
+                <option value="a3">syriac here</option>
+                <option value="a4">syriac here</option>
+                <option value="a5">syriac here</option>
+            </select>
+            <label for="q2-2"> into the middle of a sentence</label>
+            <select id="q2-2" name="q2-2" required>
+                <option value="a1">syriac here</option>
+                <option value="a2">syriac here</option>
+                <option value="a3">syriac here</option>
+                <option value="a4">syriac here</option>
+                <option value="a5">syriac here</option>
+            </select>
+            <label for="q2.2"> .</label>
+        </div>
+
+        <!-- Textarea -->
+        <div class="form-group">
+            <label for="q3">Your students can even type in Syriac:</label>
+            <textarea id="q3" name="q3" dir="rtl" placeholder="syriac here"></textarea>
+        </div>
+
+        <!-- Submit Button -->
+        <div class="form-group">
+            <button type="submit">Submit</button>
+        </div>
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,82 @@
+/* Syriac Font */
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('./Serto_font.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* General Styling */
+body {
+    font-family: "Times New Roman", sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #e8a240;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+form {
+    max-width: 800px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+input[type="checkbox"] {
+    width: auto;
+    margin-right: 10px;
+}
+
+input[type="radio"] {
+    width: auto;
+    margin-right: 10px;
+}
+
+textarea {
+    resize: vertical;
+    display: block;
+    height: 50px;
+    width: 100%; 
+}
+
+
+button:hover {
+    background-color: #45a049;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: #e8a240;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.syriac {
+    font-family: 'MyCustomFont';
+}
