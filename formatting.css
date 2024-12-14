@@ -1,10 +1,10 @@
 /* Syriac Font */
-@font-face {
+/* @font-face {
     font-family: 'MyCustomFont';
     src: url('./Serto_font.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-}
+} */
 
 /* General Styling */
 body {
@@ -75,8 +75,4 @@ button {
     border: none;
     cursor: pointer;
     text-transform: uppercase;
-}
-
-.syriac {
-    font-family: 'MyCustomFont';
 }
